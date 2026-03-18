@@ -1,50 +1,71 @@
-# Welcome to your Expo app 👋
+# Yazılımcı Rehberi 👨‍💻
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+React Native ve Expo ile geliştirilmiş yazılımcı işe alım oyunu.
 
-## Get started
+## 📱 APK İndir
 
-1. Install dependencies
+> Android telefonuna yüklemek için aşağıdaki linkten APK'yı indirebilirsin:
 
-   ```bash
-   npm install
-   ```
+**[⬇️ APK İndir](https://expo.dev/accounts/rebrrc/projects/YazilimciKart/builds/eee03488-cdc6-4831-a3f2-154775a93080)**
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🎮 Oyun Hakkında
 
-In the output, you'll find options to open the app in a
+Sınırlı bütçenle en iyi yazılım takımını kur!
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Başlangıç bütçen: **100 puan**
+- Junior → 10 puan
+- Mid-level → 25 puan
+- Senior → 40 puan
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Doğru hamlelerle bütçeni yönet ve takımını oluştur.
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🛠 Kullanılan Teknolojiler
 
+- React Native
+- Expo SDK 55
+- JSX
+- Component, Props, State
+- FlatList
+- Animated API
+- StyleSheet (Flexbox)
+
+---
+
+## 🚀 Projeyi Çalıştır
+
+**Bağımlılıkları yükle:**
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+**Uygulamayı başlat:**
+```bash
+npx expo start
+```
 
-## Learn more
+**Web'de aç:**
+```bash
+npx expo start --web
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📁 Klasör Yapısı
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```
+├── app/
+│   ├── _layout.tsx
+│   └── index.js        # Ana ekran
+├── components/
+│   ├── ProfilKarti.js
+│   ├── Avatar.js
+│   ├── BudgetBar.js
+│   ├── DurumRozeti.js
+│   └── OyunSonu.js
+├── constants.js         # Renkler, tipografi, oyun verileri
+└── README.md
+```
